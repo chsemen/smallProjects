@@ -3,6 +3,7 @@
 Подключение через ssh к репозитории
 1. Генерация ключей 
 ssh-keygen -t rsa -b 4096 -C "ch-semen@rambler.ru" 
+ssh-keygen -t rsa -b 4096 -C "alexchefranov0@gmain.com" 
 или с указанием имени файла
 ssh-keygen -t rsa -b 4096 -C "ch-semen@rambler.ru" -O C:\Users\semen/.ssh/id_rsa2
 
