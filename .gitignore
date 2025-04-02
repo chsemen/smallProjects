@@ -1,4 +1,8 @@
+# google sheet and drive
 credentials-sheets.json
+token-sheets.pickle
+token-drive.pickle
+
 cert.key
 media/
 uwsgi_app.sock
