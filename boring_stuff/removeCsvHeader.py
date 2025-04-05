@@ -23,6 +23,3 @@ for csvFilename in os.listdir('.'):
         writer.writerow(row)
     outputFile.close()
 
-
-
-
