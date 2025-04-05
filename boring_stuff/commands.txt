@@ -1,0 +1,6 @@
+Новая ветка
+git branch chapter_csv
+Заброс в ветки в удаленный репозиторий
+git push origin chapter_csv
+Настройка удаленного ветки как источники ?
+git branch --set-upstream-to=origin/chapter_csv chapter_csv
