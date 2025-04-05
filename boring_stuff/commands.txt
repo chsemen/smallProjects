@@ -1,6 +1,28 @@
 Новая ветка
 git branch chapter_csv
-Заброс в ветки в удаленный репозиторий
+git checkout chapter_csv
+Или 
+git checkout branch chapter_csv
+git checkout -b chapter_csv
+
+
+$ git checkout -b <name of branch>
+
+Заброс в ветки во внешний репозиторий
 git push origin chapter_csv
-Настройка удаленного ветки как источники ?
+
+Настройка ветки внешнего репазитория для синхронизации
 git branch --set-upstream-to=origin/chapter_csv chapter_csv
+
+На второй машине
+Просмотр внешних HEAD
+git ls-remote
+Извлечение
+git fetch
+Просмотр веток, в том числе внешних
+git branch -a
+
+Переход на новую ветку
+git checkout chapter_csv
+
+
