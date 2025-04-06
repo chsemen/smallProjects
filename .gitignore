@@ -3,6 +3,8 @@ credentials-sheets.json
 token-sheets.pickle
 token-drive.pickle
 
+getOpenWeather_protected.csv
+
 cert.key
 media/
 uwsgi_app.sock

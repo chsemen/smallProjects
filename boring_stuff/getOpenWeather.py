@@ -1,10 +1,26 @@
 #! python3
 # getOpenWeather.py - Prints the weather for a location from the command line.
 
-APPID='1a65ba94f31398ec29ec57aefa3a8f78'
-
 import json, requests, sys
 import pprint
+import csv
+
+# outputFile = open('getOpenWeather_protected.csv', 'w', newline='')
+# outputDictWriter = csv.DictWriter(outputFile, ['APPID'])
+# outputDictWriter.writeheader()
+# outputDictWriter.writerow({'APPID': '*'})
+# outputFile.close()
+
+
+exampleFile = open('getOpenWeather_protected.csv')
+exampleDictReader = csv.DictReader(exampleFile)
+APPID=''
+for row in exampleDictReader:
+    APPID=row['APPID']
+    break
+
+
+
 
 # if len(sys.argv) < 2:
 #     print('Usage: getOpemWeather.py city_name, 2-letter_coutry_code')
