@@ -6,6 +6,7 @@ token-drive.pickle
 token.json
 getOpenWeather_protected.csv
 boring_stuff/withlogo
+boring_stuff/*.jpg
 
 cert.key
 media/
